@@ -1,0 +1,16 @@
+** /docs are for learning purposes only
+/docs/*
+
+# .NET
+bin/
+obj/
+*.user
+.vs/
+
+# Node
+node_modules/
+dist/
+
+# Editors / OS
+.idea/
+.DS_Store

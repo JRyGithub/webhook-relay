@@ -1,0 +1,20 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.6.4">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AspireUseCliBundle>true</AspireUseCliBundle>
+    <UserSecretsId>bc9c4012-adfc-4dd4-b7c4-b052d59ab147</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.JavaScript" Version="13.6.4" />
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.6.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebhookRelay.Api\WebhookRelay.Api.csproj" />
+    <ProjectReference Include="..\WebhookRelay.Worker\WebhookRelay.Worker.csproj" />
+    <ProjectReference Include="..\WebhookRelay.FlakyTarget\WebhookRelay.FlakyTarget.csproj" />
+  </ItemGroup>
+
+</Project>

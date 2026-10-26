@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebhookRelay.ServiceDefaults\WebhookRelay.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <UserSecretsId>dotnet-WebhookRelay.Worker-e66e2657-7b05-492b-a585-d32948f98afe</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="13.6.4" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebhookRelay.ServiceDefaults\WebhookRelay.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\WebhookRelay.Data\WebhookRelay.Data.csproj" />
+  </ItemGroup>
+</Project>
