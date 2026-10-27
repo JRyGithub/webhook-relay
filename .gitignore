@@ -1,6 +1,7 @@
 ** /docs are for learning purposes only
 /docs/*
-
+/learnings/*
+learnings/
 # .NET
 bin/
 obj/
